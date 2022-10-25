@@ -3,10 +3,24 @@
 2.- Les agregamos el evento blur que hace que se dispare cuando dejamos el foco del input. y le agregamos la función
     validar
 
-3.- En la función validar comprobamos que el input no este vacio utilizamos .trim para eliminar los espacios en blanco
+3.- En la función validarinputs comprobamos que el input no este vacio utilizamos .trim para eliminar los espacios en blanco
     y si esta vacio se disapara la funicón mostrar mensaje
 
-4.- La función Monstrar mensaje crea un elemento <p> y lo agrega al html   
+4.- La función Monstrar mensaje crea un elemento <p> y lo agrega al html  se le añade la clase alerta 
+
+5,- La funcion limpiarAlerta borrar los avisos de errores. para ello comprobamos si el 
+    contenedor tiene la clase alerta y en caso que la tenmga la eliminamos
+
+6,- La funcion validar email utilizammos un patron para validar el email
+          const regex = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
+
+7, La funcion habilitarEnviar desmarcarmos el boton enviar quitandole las calse opacity y poniendo el 
+   disabled a true
+
+ 8.- La función borrar campos eliminamos los atributos del ojeto por defecto el botosan reset borrar los inputs
+
+ 9.- Con la función enviar email simulamos que estamos enviado un email y con setTimeouut le damos un
+     retraso de 3 sg haciendo aparaecer el spinner y el mensaje que creamos e insertamos en el formulario con appendChild         
 
 
 

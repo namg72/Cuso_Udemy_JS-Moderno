@@ -159,11 +159,6 @@ function enviarMail(e) {
 
         borrarCampos(); //vaciamos el objeto email
 
-        console.log(email);
-
-
-
-
         //Texto de enviar mail
         const mensajeExito = document.createElement("P");
         mensajeExito.textContent = "Email enviado correctamente";
