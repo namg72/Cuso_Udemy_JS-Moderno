@@ -1,0 +1,19 @@
+1.- Secleccionamos los imputs
+
+2.- Les agregamos el evento blur que hace que se dispare cuando dejamos el foco del input. y le agregamos la función
+    validar
+
+3.- En la función validar comprobamos que el input no este vacio utilizamos .trim para eliminar los espacios en blanco
+    y si esta vacio se disapara la funicón mostrar mensaje
+
+4.- La función Monstrar mensaje crea un elemento <p> y lo agrega al html   
+
+
+
+=========================== S P I N N E R ================================
+
+par crear un spiner lo podemos hacer con esta pagina
+nos da el html y el css
+
+
+https://tobiasahlin.com/spinkit/
